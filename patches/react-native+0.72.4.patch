@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native/index.js b/node_modules/react-native/index.js
+index 7149c64..926de43 100644
+--- a/node_modules/react-native/index.js
++++ b/node_modules/react-native/index.js
+@@ -387,7 +387,7 @@ module.exports = {
+         'continue using ColorPropType, migrate to the ' +
+         "'deprecated-react-native-prop-types' package.",
+     );
+-    return require('deprecated-react-native-prop-types').ColorPropType;
++    return require('deprecated-react-native-prop-types').ColorPropType
+   },
+   get EdgeInsetsPropType(): $FlowFixMe {
+     console.error(
